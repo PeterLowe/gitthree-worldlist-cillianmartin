@@ -2,7 +2,7 @@
 // date November 2022
 // author Pete Lowe
 // add your name here
-//  or here
+//  MArtin McCarthy
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -54,7 +54,7 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-	}	
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
