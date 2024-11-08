@@ -26,7 +26,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or X to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -107,7 +107,7 @@ if (letter == 'b' || letter == 'B')
 			std::cout << "there are no countries begining with Y in the rest of the world" << std::endl;
 		}
 	}
-	if (letter == 'x' || letter == 'Z')
+	if (letter == 'x' || letter == 'X')
 	{
 		if (region == 1)
 		{
