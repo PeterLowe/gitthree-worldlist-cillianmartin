@@ -27,6 +27,7 @@ int main()
 		return 0;
 	}
 	std::cout << "Pick a letter from A to C or Y to Z" << std::endl; // change this line each iteration
+
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{
@@ -107,6 +108,31 @@ int main()
 		}
 	}
 
+
+	if (letter == 'x' || letter == 'X')
+	{
+		if (region == 1)
+		{
+			std::cout << "there are no countries begining with X in America " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "there are no countries begining with X in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "there are no countries begining with X in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "there are no countries begining with X in Aisa" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "there are no countries beginning with X in the rest of the world" << std::endl;
+		}
+	}
+
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)
@@ -130,12 +156,6 @@ int main()
 			std::cout << "there are no countries begining with Y in the rest of the world" << std::endl;
 		}
 	}
-
-
-
-
-
-
 
 
 
