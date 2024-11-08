@@ -26,15 +26,15 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or Y to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -60,7 +60,7 @@ int main()
 		}
 
 	}
-if (letter == 'b' || letter == 'B')
+	if (letter == 'b' || letter == 'B')
 	{
 		if (region == 1)
 		{
@@ -81,6 +81,29 @@ if (letter == 'b' || letter == 'B')
 		if (region == 5)
 		{
 			std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
+		}
+	}
+	if (letter == 'c' || letter == 'C')
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Comoros, Democratic Republic of the Congo, Congo Republic of (Brazzaville), Côte D'ivoire (Ivory Coast)" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas island, Cyprus " << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cayman Island, Cocos Island, Cook island, Cuba" << std::endl;
 		}
 	}
 
@@ -107,14 +130,14 @@ if (letter == 'b' || letter == 'B')
 			std::cout << "there are no countries begining with Y in the rest of the world" << std::endl;
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
@@ -140,8 +163,8 @@ if (letter == 'b' || letter == 'B')
 		}
 
 	}
-	
-	
-	
+
+
+
 	return 1;
 }
